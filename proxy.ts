@@ -8,5 +8,5 @@ export const proxy = withAuth({
 });
 
 export const config = {
-  matcher: ["/api/users/:path*", "/api/auth/token", "/change-password"],
+  matcher: ["/api/users/:path*", "/api/token", "/change-password"],
 };
